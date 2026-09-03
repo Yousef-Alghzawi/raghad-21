@@ -48,10 +48,10 @@ she reads, and blossoms open at every chapter.
    3 September 2026". Scroll cue.
 2. Presence. How she became the most essential part of the day.
 3. Irbid, drawn in you. Blossom map of places; tap a blossom, a line opens.
-   Places: OZ cafe, Daiken, Calma, Vogo, the airplane restaurant, District 7,
+   Places: OZ cafe, Daiken, the airplane restaurant, District 7,
    Cracko, McDonald's, the east and south neighbourhoods, University Street
    (where they go together to pick up lunch for the family), King Abdullah
-   University Hospital, JUST, Culture Circle, the cinema (Spider-Man and
+   University Hospital, JUST, the cinema (Spider-Man and
    The Odyssey).
 4. Scent. Days go wrong without it.
 5. Wardrobe. Every outfit outdoes the last. Burgundy panel.
