@@ -110,21 +110,22 @@
   gsap.set('.hero-name', { opacity: 0, y: 30, scale: 0.94 });
   gsap.set('.hero-line', { opacity: 0, y: 18 });
 
-  var intro = gsap.timeline({ defaults: { ease: 'power2.out' }, delay: 0.2 });
+  /* the whole entrance takes about three seconds; her name is readable within two */
+  var intro = gsap.timeline({ defaults: { ease: 'power2.out' }, delay: 0.15 });
   intro.to(heroBark, {
     strokeDashoffset: 0,
-    duration: 2.6,
+    duration: 1.8,
     ease: 'power1.inOut',
-    stagger: { each: 0.12, from: 'start' }
-  });
+    stagger: { each: 0.05, from: 'start' }
+  }, 0);
+  intro.to('.hero-name', { opacity: 1, y: 0, scale: 1, duration: 1.2 }, 0.7);
   intro.to(heroBlooms, {
     scale: 1,
-    duration: 1.1,
+    duration: 0.9,
     ease: 'back.out(1.8)',
-    stagger: { each: 0.06, from: 'random' }
-  }, '-=1.6');
-  intro.to('.hero-name', { opacity: 1, y: 0, scale: 1, duration: 1.4 }, '-=1.4');
-  intro.to('.hero-line', { opacity: 1, y: 0, duration: 1, stagger: 0.16 }, '-=0.9');
+    stagger: { each: 0.03, from: 'random' }
+  }, 1.1);
+  intro.to('.hero-line', { opacity: 1, y: 0, duration: 0.9, stagger: 0.14 }, 1.4);
 
   gsap.to('.hero-inner', {
     y: -60,
